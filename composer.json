@@ -8,6 +8,9 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
