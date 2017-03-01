@@ -1,0 +1,11 @@
+{
+    "name": "wizardjedi/testcontainers-php",
+    "description": "Small library for creation Docker containers in PHPUnit tests.",
+    "authors": [
+        {
+            "name": "Sayapin Alexander",
+            "email": "wizardjedi@gmail.com"
+        }
+    ],
+    "require": {}
+}
