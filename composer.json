@@ -7,7 +7,9 @@
             "email": "wizardjedi@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "docker-php/docker-php": "^1.24"
+    },
     "autoload": {
         "classmap": ["src/"]
     },

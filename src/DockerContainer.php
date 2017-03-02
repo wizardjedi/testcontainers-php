@@ -34,7 +34,7 @@ class DockerContainer {
             $envStr = "-e ".implode(' ', $envValues);
         }
         
-        $command = "docker run -d ".$envStr." -P ".$this->imageName;
+        $command = "docker run -d ".$envStr." ".$this->imageName;
         
         fputs(STDERR, $command."\n");
         $output = system($command, $return);
